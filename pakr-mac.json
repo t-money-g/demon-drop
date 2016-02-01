@@ -1,0 +1,18 @@
+{
+    "platform": "mac",
+    "jdk": "/Users/terrenceyoung/Downloads/openjdk-1.7.0-u80-unofficial-macosx-x86_64-image",
+    "executable": "Demon Summoner",
+    "classpath": [
+        "myapp.jar"
+    ],
+    "mainclass": "com.my.app.MainClass",
+    "vmargs": [
+       "-Xmx1G"
+    ],
+    "resources": [
+        "src/main/resources",
+        "path/to/other/assets"
+    ],
+    "minimizejre": "soft",
+    "outdir": "out-mac"
+}
